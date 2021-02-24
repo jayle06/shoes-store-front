@@ -8,12 +8,27 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/">
+          <Route path="/product">
             <Header />
             <Home />
           </Route>
-          <Route path="/product">
-            <h1>Hello Product</h1>
+          <Route path="/contact">
+            <Header />
+            <h1>Contact</h1>
+          </Route>
+          <Route path="/about">
+            <Header />
+            <h1>About</h1>
+          </Route>
+          <Route path="/login">
+            <h1>Login</h1>
+          </Route>
+          <Route path="/cart">
+            <h1>Cart</h1>
+          </Route>
+          <Route path="/">
+            <Header />
+            <h1>Home Page </h1>
           </Route>
         </Switch>
       </div>
